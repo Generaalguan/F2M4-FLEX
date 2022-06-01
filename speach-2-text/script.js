@@ -58,13 +58,13 @@ actionSpeech = (speechText) => {
       image1.classList.remove("hide") // show image
       break;
     case "next":
-      window.open("http://33372.hosts1.ma-cloud.nl/Web-shop/", "_self");
+      window.open("http://33372.hosts1.ma-cloud.nl/Web-shop/", "_blanck");
       break;
     case "help me":
       alert("Valid speech commands: black,  reset, next page");
       break;
       case "below":
-        window.open("https://www.linkedin.com/in/generalguan-undefined-319249232/");
+        window.open("https://www.linkedin.com/in/generalguan-undefined-319249232/", "_blanck");
         break;
     default:
       // do nothing yet
